@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "dependencies": {
+    "types-registry": "^0.1.685"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.20.1",
+    "@types/babel__template": "^7.4.1",
+    "@types/babel__traverse": "^7.20.1",
+    "@types/node": "^20.6.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7"
+  }
+}
