@@ -14,7 +14,7 @@ export function SocketProvider({ children }) {
   const [socket, setSocket] = useState()
   useEffect(() => {
     if(!id) return
-    const newSocket = io('https://chess-server.jjroley.repl.co', { 
+    const newSocket = io('https://chess-2-0-k4ow.vercel.app', { 
       query: { id }
     })
     setSocket(newSocket)
